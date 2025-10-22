@@ -4,7 +4,7 @@ const About = require('../models/About');
 const aboutController = new BaseController(About,{
     name:"About",
     get:{
-        query:['type']
+        query:['type'] 
     }
 });
 
