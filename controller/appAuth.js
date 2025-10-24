@@ -5,7 +5,7 @@ const config = require('../config');
 const authConfig = {
     jwtSecret: config.jwtSecret.jwtSecret,
     jwtExpiresIn: config.jwtSecret.expiresIn,
-    loginType: 'otp',
+    loginType: 'password',
     otpField: 'mobile',
 };
 

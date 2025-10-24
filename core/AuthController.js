@@ -100,7 +100,7 @@ class AuthController {
     }
 
     async login(req, res) {
-        if (this.loginType === 'password') return this.otpLogin(req, res);
+        if (this.loginType === 'otp') return this.otpLogin(req, res);
 
         try {
 
